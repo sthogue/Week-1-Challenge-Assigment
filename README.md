@@ -34,6 +34,8 @@ Original source code from: https://github.com/coding-boot-camp/urban-octo-telegr
 
 User story and acceptance use criteria sourced from EdX BootCamp Assignment #1 on https://Course.bootcampspot.com 
 
+I used the WAVE (web accessibility evaluation tool) to ensure alt text worked and the color contrast pasted AAA cert.
+
 ## License
 
 Please refer to the LICENSE in the repo.
