@@ -1,12 +1,12 @@
 * {
-    /* changes all global attribues */
+    /* changes all global attributes */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 a {
-    /* changes all a atributes color and text decoration */ 
+    /* changes all a attributes color and text decoration */ 
     color: #ffffff;
     text-decoration: none;
 }
@@ -21,7 +21,16 @@ p {
     font-size: 16px;
 }
 
-.header {
+footer {
+    /* footer attributes */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+header {
     /* heading style, color, and font */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,19 +38,19 @@ p {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     /* organization name attributes */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     /* changes the color of "seo" in organization name */
     color: #d9dcd6;
 }
 
-.header div {
-    /* header div attribues */
+header nav{
+    /* header nav attributes */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,15 +58,15 @@ p {
     font-size: 20px;  
 }
 
-.header div ul li {
-    /* makes nav bar inline, removes bullets, and gives margin */
+ul li {
+    /* makes nav list items inline, removes bullets, and gives margin */
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
 .hero {
-    /* hero image attribues, image source, and placement */
+    /* hero image attributes, image source, and placement */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -79,7 +88,7 @@ p {
 }
 
 .benefits {
-    /* benefits section attirbues */
+    /* benefits section attributes */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,61 +100,49 @@ p {
 }
 
 .benefit-list {
-    /* benfits list bottom margin and changes overall text color */
+    /* benefits list bottom margin and changes overall text color */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-list h3 {
-    /* changes benfits h3 margins and centers text */
+    /* changes benefits h3 margins and centers text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-list img {
-    /* changes benfits images display, margins and max width */
+    /* changes benefits images display, margins and max width */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .content {
-    /* entire left side content section area attribues. Width, disply, and margin */
+    /* entire left side content section area attributes. Width, display, and margin */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+.content img {
+    /* changes images in content bars */
+    max-height: 200px;
+}
 
-.content-bars {
-    /* individual content bar attribues */
+.content h2 {
+    /* changes 2nd level headings in content bars sizes and bottom margins */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
+    /* individual content bar attributes */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-.content-bars img {
-    /* changes images in content bars */
-    max-height: 200px;
-}
-
-.content-bars h2 {
-    /* changes 2nd level headdings in content bars sizse and bottom margins */
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
-    /* footter attribues */
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    /* changes 2nd level headings px size in footer */
-    font-size: 20px;
 }

@@ -20,7 +20,7 @@ Bootcamp Week 1 Challenge Assignment
     THEN I find a concise, descriptive title
 
 ## Link to Application
-    https://sthogue.github.io/Week-1-Challenge-Assignment/
+https://sthogue.github.io/Week-1-Challenge-Assignment/
 
 ## Usage
 
@@ -35,6 +35,7 @@ Original source code from: https://github.com/coding-boot-camp/urban-octo-telegr
 User story and acceptance use criteria sourced from EdX BootCamp Assignment #1 on https://Course.bootcampspot.com 
 
 I used the WAVE (web accessibility evaluation tool) to ensure alt text worked and the color contrast pasted AAA cert.
+Link to WAVE tool: https://wave.webaim.org/
 
 ## License
 
